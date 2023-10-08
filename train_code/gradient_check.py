@@ -20,10 +20,3 @@ grads2=network.numerical_gradient(x_batch,t_batch)
 for key in grads1.keys():   #这里注意是keys，而不是key
     diff=np.average(np.abs(grads2[key]-grads1[key]))
     print(key+':'+str(diff))
-
-def add():
-    pass
-
-def mul():
-    a= 1
-    
