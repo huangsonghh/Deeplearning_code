@@ -3,7 +3,7 @@ import os,sys
 sys.path.append(os.pardir) 
 import numpy as np
 
-from Deeplearning_code.dataset.mnist import load_mnist
+from dataset.mnist import load_mnist
 from two_layer_net2 import TwoLayerNet
 
 (x_train,t_train),(x_test,t_test)=load_mnist(normalize=True,one_hot_label=True)
