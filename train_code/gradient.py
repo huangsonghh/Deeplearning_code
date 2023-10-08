@@ -52,5 +52,3 @@ def numerical_gradient3(f, x):
 
     return grad
 
-def ADD():
-    pass
