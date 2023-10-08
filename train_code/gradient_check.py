@@ -1,6 +1,6 @@
 # 开发日期：2023/9/5
 import os,sys
-sys.path.append(os.pardir)
+sys.path.append(os.pardir) 
 import numpy as np
 
 from Deeplearning_code.dataset.mnist import load_mnist
