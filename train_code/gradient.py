@@ -51,3 +51,6 @@ def numerical_gradient3(f, x):
         it.iternext()
 
     return grad
+
+def ADD():
+    pass
