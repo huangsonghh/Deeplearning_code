@@ -23,3 +23,7 @@ for key in grads1.keys():   #这里注意是keys，而不是key
 
 def add():
     pass
+
+def mul():
+    a= 1
+    
